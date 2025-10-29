@@ -29,10 +29,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'app.usuario',
-    'app.administrador',
-    'app.residente',
-    'app.vigilante',
+    'usuario',
+    'administrador',
+    'residente',
+    'vigilante',
     'crispy_forms',
 ]
 
