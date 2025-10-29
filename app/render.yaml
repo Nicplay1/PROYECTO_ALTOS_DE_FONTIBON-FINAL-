@@ -6,6 +6,6 @@ services:
     startCommand: "gunicorn app.app.wsgi:application"
     envVars:
       - key: DJANGO_SETTINGS_MODULE
-        value: app.settings
+        value: app.app.settings
       - key: PYTHON_VERSION
         value: 3.11
