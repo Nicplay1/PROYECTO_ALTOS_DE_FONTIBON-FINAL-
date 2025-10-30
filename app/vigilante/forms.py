@@ -1,5 +1,5 @@
 from django import forms
-from usuario.models import *
+from app.usuario.models import *
 from .models import *
 from datetime import date
 
