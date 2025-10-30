@@ -3,7 +3,7 @@ from django.contrib import messages
 from django.contrib.auth.hashers import make_password, check_password
 from .models import*
 from .forms import*
-from residente.forms import*
+from app.residente.forms import*
 from .decorators import login_requerido
 from django.core.mail import send_mail
 from django.urls import reverse
