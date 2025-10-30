@@ -80,8 +80,8 @@ WSGI_APPLICATION = 'app.wsgi.application'
 # Local por defecto (MySQL)
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'proyecto_bd',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
         'USER': 'root',
         'PASSWORD': '',
         'HOST': 'localhost',
