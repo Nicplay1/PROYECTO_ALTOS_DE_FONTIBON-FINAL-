@@ -1,5 +1,6 @@
 from django import forms
-from usuario.models import *
+from app.usuario.models import *
+
 from django.core.validators import MaxValueValidator, MinValueValidator
 
 

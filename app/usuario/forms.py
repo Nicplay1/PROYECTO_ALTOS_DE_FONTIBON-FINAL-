@@ -1,5 +1,5 @@
 from django import forms
-from .models import Usuario
+from app.usuario.models import *
 from django.core.exceptions import ValidationError
 from django.contrib.auth.hashers import make_password
 import re

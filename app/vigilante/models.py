@@ -1,5 +1,6 @@
 from django.db import models
-from usuario.models import *
+from app.usuario.models import *
+
 
 # Create your models here.
 class Paquete(models.Model):

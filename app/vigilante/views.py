@@ -1,12 +1,12 @@
 from django.shortcuts import render, redirect, get_object_or_404
-from usuario.models import *
+from app.usuario.models import *
+from app.usuario.decorators import *
 from .forms import *
 from django.contrib import messages
 from django.utils import timezone
 from random import choice
 from django.template.loader import render_to_string
 from django.http import JsonResponse, HttpResponse
-from usuario.decorators import *
 from django.core.mail import send_mail
 from django.urls import reverse
 from .models import *

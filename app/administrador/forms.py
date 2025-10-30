@@ -1,5 +1,5 @@
 from django import forms
-from usuario.models import *
+from app.usuario.models import *
 
 
 class CambiarRolForm(forms.ModelForm):

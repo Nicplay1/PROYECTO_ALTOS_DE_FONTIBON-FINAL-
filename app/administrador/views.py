@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect, get_object_or_404
-from usuario.models import *
-from usuario.decorators import *
+from app.usuario.models import *
+from app.usuario.decorators import *
 from django.contrib import messages
 from .forms import *
 import random
