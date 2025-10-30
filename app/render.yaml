@@ -2,8 +2,11 @@ services:
   - type: web
     name: proyecto_altos_de_fontibon
     env: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "gunicorn app.app.wsgi:application"
+    buildCommand: |
+      pip install -r requirements.txt
+      python manage.py migrate
+      python manage.py collectstatic --noinput
+    startCommand: gunicorn app.app.wsgi:application
     envVars:
       - key: DJANGO_SETTINGS_MODULE
         value: app.app.settings
