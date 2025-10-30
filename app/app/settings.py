@@ -30,7 +30,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'app.usuario',
-    'administrador',
+    'app.administrador',
     'residente',
     'vigilante',
     'crispy_forms',
