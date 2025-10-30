@@ -32,7 +32,7 @@ INSTALLED_APPS = [
     'app.usuario',
     'app.administrador',
     'app.residente',
-    'vigilante',
+    'app.vigilante',
     'crispy_forms',
 ]
 
